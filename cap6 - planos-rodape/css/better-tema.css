@@ -1,0 +1,55 @@
+.jumbotron {
+  background-image: url(../img/vitrine.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 2em;
+  background: #e6e6e6;
+  padding: 40px 0;
+  border-top: 1px solid #AAA;
+}
+
+.footer .container {
+  position: relative;
+}
+
+
+/*
+.social {
+  position: absolute;
+  right: 1em;
+  top: -1.6em;
+}
+*/
+
+.social a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  text-indent: -9999px;
+  
+}
+
+.social li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+
+.social a[href='http://facebook.com/betterimages'] {
+  background: url(../img/icone-face.png);
+  background-size: 36px 36px
+}
+
+.social a[href='http://twitter.com/betterimages'] {
+  background: url(../img/icone-twitter.png);
+  background-size: 36px 36px
+}
+
+.social a[href='http://instagram.com/betterimages'] {
+  background: url(../img/icone-insta.png);
+  background-size: 36px 36px
+}
